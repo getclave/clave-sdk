@@ -3,8 +3,8 @@
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
  */
+import { Core, PopulatedTransaction } from '@getclave/core';
 import { CONSTANT_ADDRESSES } from 'clave-constants';
-import { Core, PopulatedTransaction } from 'clave-core';
 import { FString } from 'clave-utils';
 import { BigNumber, ethers } from 'ethers';
 import { types } from 'zksync-web3';

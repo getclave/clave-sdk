@@ -1,3 +1,8 @@
+/**
+ * Copyright Clave - All Rights Reserved
+ * Unauthorized copying of this file, via any medium is strictly prohibited
+ * Proprietary and confidential
+ */
 import { CONSTANT_ADDRESSES } from 'clave-constants';
 import { Core, PopulatedTransaction } from 'clave-core';
 import { FString } from 'clave-utils';

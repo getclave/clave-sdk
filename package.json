@@ -63,7 +63,7 @@
     "typescript": "5.1.6",
     "zksync-web3": "0.14.3",
     "@getclave/core": "*",
-    "clave-utils": "*",
+    "@getclave-utils": "*",
     "clave-constants": "*"
   },
   "devDependencies": {

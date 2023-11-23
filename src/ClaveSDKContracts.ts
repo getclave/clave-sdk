@@ -3,7 +3,6 @@
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
  */
-import { Contract, Core } from '@getclave/core';
 import {
     CLOUD_RECOVERY_ABI,
     CONSTANT_ADDRESSES,
@@ -11,7 +10,8 @@ import {
     PAYMASTERABI,
     REGISTRY_ABI,
     SOCIAL_RECOVERY_ABI,
-} from 'clave-constants';
+} from '@getclave/constants';
+import { Contract, Core } from '@getclave/core';
 
 import { ClaveContractKey } from './types';
 

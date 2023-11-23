@@ -34,8 +34,8 @@
     "zksync"
   ],
   "description": "Main Clave SDK to interact with Clave contracts",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "index.ts",
+  "types": "index.d.ts",
   "publisher": "getclave.io",
   "scripts": {
     "build": "rimraf dist && tsc",

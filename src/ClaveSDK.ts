@@ -13,7 +13,7 @@ import { ClaveSDKContracts } from './ClaveSDKContracts';
 
 export class ClaveSDK extends ClaveSDKContracts {
     private core: Core;
-    static constants = CONSTANT_ADDRESSES;
+    constants = CONSTANT_ADDRESSES;
 
     constructor(core: Core) {
         super(core);

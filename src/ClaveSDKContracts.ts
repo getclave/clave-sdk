@@ -11,9 +11,9 @@ import {
     REGISTRY_ABI,
     SOCIAL_RECOVERY_ABI,
 } from '@getclave/constants';
-import { Contract, Core } from '@getclave/core';
+import type { Contract, Core } from '@getclave/core';
 
-import { ClaveContractKey } from './types';
+import { type ClaveContractKey } from './types';
 
 export class ClaveSDKContracts {
     contracts: Record<ClaveContractKey, Contract>;

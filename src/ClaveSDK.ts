@@ -4,10 +4,10 @@
  * Proprietary and confidential
  */
 import { CONSTANT_ADDRESSES } from '@getclave/constants';
-import { Core, PopulatedTransaction } from '@getclave/core';
+import type { Core, PopulatedTransaction } from '@getclave/core';
 import { FString } from '@getclave/utils';
-import { BigNumber, ethers } from 'ethers';
-import { types } from 'zksync-web3';
+import { BigNumber, type ethers } from 'ethers';
+import { type types } from 'zksync-web3';
 
 import { ClaveSDKContracts } from './ClaveSDKContracts';
 

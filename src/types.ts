@@ -3,7 +3,7 @@
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
  */
-import { BigNumber } from 'ethers';
+import { type BigNumber } from 'ethers';
 
 export type ClaveContractKey =
     | 'registry'
